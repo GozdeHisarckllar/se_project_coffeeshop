@@ -1,0 +1,11 @@
+.header__image {
+  display: block;
+  width: 54%;/*560px*//*45%*/
+  max-width: 676px;
+  /*height: 510px;*/
+  position: absolute;
+  top: 10%;/*-48px*//*124px*//*17%*//*12%*/
+  right: -5%;/*5px*//****-75px*/
+  border-radius: 50%;
+  z-index: 1;
+}

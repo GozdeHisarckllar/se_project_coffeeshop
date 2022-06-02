@@ -1,0 +1,13 @@
+@import url('./__title/card__title.css');
+@import url('./__list/card__list.css');
+@import url('./__list-item/card__list-item.css');
+@import url('./__list-detail/card__list-detail.css');
+@import url('./__list-divider/card__list-divider.css');
+
+.card {
+  max-width: 600px;
+  width: calc((100% - 100px) / 2);
+}
+    
+  
+     

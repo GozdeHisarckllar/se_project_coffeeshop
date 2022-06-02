@@ -1,0 +1,23 @@
+@import url('./__container/header__container.css');
+@import url('./__nav-container/header__nav-container.css');
+@import url('./__title/header__title.css');
+@import url('./__description/header__description.css');
+@import url('./__span-accent/header__span-accent.css');
+@import url('./__span-break/header__span-break.css');
+@import url('./__image/header__image.css');
+@import url('./__paragraph-container/header__paragraph-container.css');
+@import url('./__paragraph-group/header__paragraph-group.css');
+@import url('./__paragraph/header__paragraph.css');
+
+.header {
+  position: relative;
+  max-height: 800px; /*820px*/
+  min-height: 720px;
+  height: 100vh;
+  box-sizing: border-box;/*del*/
+  padding: 30px 0 40px 0;
+  background: center/cover 
+              no-repeat 
+              var(--background-contrast) 
+              url('../../images/background_header.svg');
+}

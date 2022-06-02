@@ -1,0 +1,10 @@
+.header__description {
+  display: inline-block;
+  position: relative;
+  margin: 28px 0 0;
+  max-width: 683px;
+  font-family: 'Noto Serif', 'Times New Roman', serif;
+  font-size: 20px;
+  line-height: 1.5em;
+  z-index: 2;
+}

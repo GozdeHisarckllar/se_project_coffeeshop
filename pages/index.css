@@ -1,0 +1,43 @@
+@import url('../vendors/normalize.css');
+@import url('../vendors/fonts/fonts.css');
+@import url('../blocks/page/page.css');
+@import url('../blocks/container/container.css');
+@import url('../blocks/header/header.css');
+@import url('../blocks/logo/logo.css');
+@import url('../blocks/nav/nav.css');
+@import url('../blocks/menu/menu.css');
+@import url('../blocks/card/card.css');
+@import url('../blocks/recipes/recipes.css');
+/* font size rem padding em*/
+:root {
+  scroll-behavior: smooth;
+  --background-contrast: #fff;/*rgb(252, 219, 219)*/
+  --main-font: #000;
+  --accent: #2F80ED;
+  --secondary-font: #838383;
+  --dark-background: #0a2750;
+}
+
+/*::-webkit-scrollbar {
+  width: .8em;
+}
+
+::-webkit-scrollbar-thumb {
+ background-color: var(--dark-background);
+}*/
+
+:not(img)::selection {
+  background-color: var(--dark-background);
+  color: var(--background-contrast);
+}
+
+img::selection {
+  background-color: transparent;
+}
+
+/*background: rgba( 255, 255, 255, 0.15 );
+box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+backdrop-filter: blur( 7px );
+-webkit-backdrop-filter: blur( 7px );
+border-radius: 10px;
+border: 1px solid rgba( 255, 255, 255, 0.18 );*/

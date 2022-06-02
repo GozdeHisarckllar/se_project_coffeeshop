@@ -1,0 +1,15 @@
+@import url('./__title/recipes__title.css');
+@import url('./__subtitle/recipes__subtitle.css');
+@import url('./__videos/recipes__videos.css');
+@import url('./__video-container/recipes__video-container.css');
+@import url('./__iframe/recipes__iframe.css');
+@import url('./__video-captions/recipes__video-captions.css');
+@import url('./__video-caption/recipes__video-caption.css');
+
+.recipes {
+  padding: 100px 0 215px;
+  background: center/cover
+              no-repeat
+              var(--background-contrast)
+              url('../../images/background_recipes.svg');
+}

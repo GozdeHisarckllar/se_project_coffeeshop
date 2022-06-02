@@ -1,0 +1,9 @@
+.recipes__subtitle {
+  max-width: 438px;
+  width: 100%;
+  margin: 24px 0 80px;
+  font-family: 'Noto Serif';
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 1.5em;
+}

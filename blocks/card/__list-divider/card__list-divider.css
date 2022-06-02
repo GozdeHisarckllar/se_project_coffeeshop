@@ -1,0 +1,9 @@
+.card__list-divider {
+  height: 1px;
+  background-color: var(--background-contrast);
+  flex-grow: 1;
+}
+
+span {
+  margin: 0 5px;
+}

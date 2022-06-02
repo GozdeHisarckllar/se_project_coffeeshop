@@ -1,0 +1,6 @@
+.menu__article-container {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  column-gap: 100px;
+}

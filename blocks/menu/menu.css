@@ -1,0 +1,13 @@
+@import url('./__container/menu__container.css');
+@import url('./__title/menu__title.css');
+@import url('./__subtitle/menu__subtitle.css');
+@import url('./__cards/menu__cards.css');
+@import url('./__article-container/menu__article-container.css');
+
+.menu {
+  padding: 100px 0;
+  background: center/cover 
+              no-repeat 
+              var(--dark-background)
+              url('../../images/background_menu.svg');
+}
