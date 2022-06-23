@@ -175,7 +175,6 @@
               </figure>
             </figure>
           </div>
-          
           <!--<iframe id="ytplayer" type="text/html" width="480" height="273"
 src="https://www.youtube.com/embed/ZdD8nknu6Zs"
 frameborder="0" allowfullscreen></iframe>
@@ -184,7 +183,37 @@ frameborder="0" allowfullscreen></iframe>
           allowfullscreen></iframe>-->
         </section>
         <section class="reservation" id="reservation">
-
+          <div class="container">
+            <h2 class="reservation__title">Book a Table</h2>
+            <form class="reservation__form form" name="reservationForm">
+              <fieldset class="form__fieldset">
+                <label class="form__label">
+                  Name *
+                  <input class="form__input" type="text" placeholder="Name Surname" required/>
+                </label>
+                <label class="form__label">
+                  Number of guests *
+                  <input class="form__input" type="number" min="1", max="8" placeholder="1-8" required/>
+                </label>
+                <label class="form__label">
+                  Data & time *
+                  <input class="form__input form__input_type_date" type="date" required/>
+                </label>
+                <label class="form__label">
+                  Your email *
+                  <input class="form__input" type="email" placeholder="email@email.com" required/>
+                </label>
+                <button class="form__button" type="submit" aria-label="submit the reservation info">
+                  Book a table
+                </button>
+                <label class="form__label form__label_type_checkbox">
+                  <input class="form__checkbox" type="checkbox" name="termsOfUse" value="Agreed" required/>
+                  <span class="form__pseudo-item" tabindex="0"></span>
+                  I agree with the terms of use
+                </label>
+              </fieldset>
+            </form>
+          </div>
         </section>
         <section class="about">
 

@@ -1,0 +1,10 @@
+@import url('./__title/reservation__title.css');
+@import url('./__form/reservation__form.css');
+
+.reservation {
+  padding: 100px 0 120px;
+  background: center/cover
+              no-repeat
+              var(--pale-blue-background)
+              url('../../images/background_reservation.svg');
+}

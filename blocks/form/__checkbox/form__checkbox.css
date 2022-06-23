@@ -1,0 +1,16 @@
+.form__checkbox {
+  position: absolute;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+  border-radius: 2px;
+}
+
+.form__checkbox:checked + .form__pseudo-item {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  background: center/contain 
+              no-repeat 
+              var(--accent) 
+              url('../../../images/check.svg');
+}

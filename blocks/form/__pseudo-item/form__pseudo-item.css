@@ -1,0 +1,14 @@
+.form__pseudo-item {
+  display: inline-block;
+  margin: 0;
+  width: 20px;
+  height: 20px;
+  vertical-align: middle;
+  background-color: var(--background-contrast);
+  outline: .5px solid var(--accent);
+  transition: all .25s ease-out;
+}
+
+.form__pseudo-item:focus-visible {
+  outline: 3px solid var(--accent);
+}
