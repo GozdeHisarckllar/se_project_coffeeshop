@@ -1,0 +1,18 @@
+.about__circle_animation_blurred {
+  animation: pulsate 1.3s ease-in-out infinite backwards;
+}
+
+@keyframes pulsate {
+  0% {
+    opacity: 0;
+  }
+
+  50% {
+    opacity: .6;
+  }
+
+  100% {
+    transform: scale(1.15);
+    opacity: 0;
+  }
+}

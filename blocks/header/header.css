@@ -11,10 +11,10 @@
 
 .header {
   position: relative;
-  max-height: 800px; /*820px*/
+  max-height: 800px;
   min-height: 720px;
   height: 100vh;
-  box-sizing: border-box;/*del*/
+  box-sizing: border-box;
   padding: 30px 0 40px 0;
   background: center/cover 
               no-repeat 

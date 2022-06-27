@@ -3,7 +3,7 @@
   padding: 10px 0;
   font-weight: 500;
   font-size: 16px;
-  line-height: 1.25em;
+  line-height: 1.25;
   text-decoration: none;
   color: var(--main-font);
   transition: color .25s ease-in-out;

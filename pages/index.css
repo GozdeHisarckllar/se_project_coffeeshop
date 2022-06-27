@@ -10,15 +10,19 @@
 @import url('../blocks/recipes/recipes.css');
 @import url('../blocks/reservation/reservation.css');
 @import url('../blocks/form/form.css');
-/* font size rem padding em*/
+@import url('../blocks/about/about.css');
+@import url('../blocks/footer/footer.css');
+
 :root {
   scroll-behavior: smooth;
   --background-contrast: #fff;/*rgb(252, 219, 219)*/
-  --main-font: #000;
+  --main-font-color: #000;
   --accent: #2F80ED;
-  --secondary-font: #838383;
+  --secondary-font-color: #838383;
   --dark-background: #0a2750;
   --pale-blue-background:  #D9E7FF;
+  --faded-font-color: #838383;
+  --link-hover-color: #c1c1c1;
 }
 
 /*::-webkit-scrollbar {

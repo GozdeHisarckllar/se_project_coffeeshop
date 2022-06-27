@@ -1,0 +1,19 @@
+@import url('./__container/footer__container.css');
+@import url('./__content/footer__content.css');
+@import url('./__logo/footer__logo.css');
+@import url('./__social-container/footer__social-container.css');
+@import url('./__social-heading/footer__social-heading.css');
+@import url('./__list/footer__list.css');
+@import url('./__list-item/footer__list-item.css');
+@import url('./__social-icon/footer__social-icon.css');
+@import url('./__social-link/footer__social-link.css');
+@import url('./__copyright/footer__copyright.css');
+
+.footer {
+  padding: 60px 0;
+  background: linear-gradient(
+    180deg, 
+    var(--dark-background) 0%, 
+    #071931 100%
+  );
+}

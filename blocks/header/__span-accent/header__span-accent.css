@@ -1,8 +1,9 @@
 .header__span-accent {
+  margin: 0;
   font-family: 'Noto Serif', 'Times New Roman', serif;
   font-weight: 400;
   font-style: italic;
   font-size: 60px;
-  line-height: 1.2em;
+  line-height: 1.2;
   color: var(--accent);
 }
